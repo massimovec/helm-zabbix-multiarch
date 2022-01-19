@@ -24,6 +24,6 @@ maintainers:
     url: https://github.com/aeciopires
 dependencies:
   - name: postgresql
-    version: ~10.3.6
+    version: "10.3.6"
     repository: file://../postgresql
     condition: postgresql.enabled
