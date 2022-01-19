@@ -25,5 +25,5 @@ maintainers:
 dependencies:
   - name: postgresql
     version: "10.3.6"
-    repository: file://../postgresql
+    repository: file://charts/postgresql
     condition: postgresql.enabled
